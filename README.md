@@ -26,45 +26,46 @@
 <h2>Решение задач</h2>
 <p>На первой странице были выполнены задачи по CSS: </p>
 <code>
-div p {}
-        div h2 {}
-        #test p  {}
-        #test h2  {}
-        .bbb {}
-        #test .bbb  {}
-        p.bbb {}
-        h2.bbb {}
-        #test p.bbb  {}
-        .bbb .xxx {}
-        p.bbb h2.xxx {}
-        #test p.bbb, #test p.xxx {}
-        .fff * {}
-        .fff p {}
-        p.fff {}
-        .fff .bbb {}
-        .fff h2.bbb {}
-        
-        #test a:link, #test a:visited {color:red;text-decoration: none;}
-        #test a:hover {color:rgb(0, 191, 255);text-decoration:underline;}
 
-        a.www:link,a.www:visited {color:rgb(0, 191, 255);text-decoration:underline;}
-        a.www:hover {text-decoration:underline;}
+    <style>
+    div p {}
+    div h2 {}
+    #test p  {}
+    #test h2  {}
+    .bbb {}
+    #test .bbb  {}
+    p.bbb {}
+    h2.bbb {}
+    #test p.bbb  {}
+    .bbb .xxx {}
+    p.bbb h2.xxx {}
+    #test p.bbb, #test p.xxx {}
+    .fff * {}
+    .fff p {}
+    p.fff {}
+    .fff .bbb {}
+    .fff h2.bbb {}
+    #test a:link, #test a:visited {color:red;text-decoration: none;}
+    #test a:hover {color:rgb(0, 191, 255);text-decoration:underline;}
 
-        #test a.www:link, #test a.www:visited {color:rgb(243, 82, 109)}
-        #test a.www:hover {color: blueviolet;}
+    a.www:link,a.www:visited {color:rgb(0, 191, 255);text decoration:underline;}
+    a.www:hover {text-decoration:underline;}
 
-        a.eee:link .www {color:green;} 
-   
+    #test a.www:link, #test a.www:visited {color:rgb(243, 82, 109)}
+    #test a.www:hover {color: blueviolet;}
+
+    a.eee:link .www {color:green;} 
+    
 </code>
-<p>Вторая страница была выполнена по образцам из ТХ: </p>
+<p>Вторая страница была выполнена по образцам из ТЗ: </p>
 <code>
-<style>
-        p {margin-left: 20px;}
-        div {border:1px gray dotted;margin-bottom: 30px;margin-top: 30px;}
-        
+
+    <style>
+    p {margin-left: 20px;}
+    div h2 {}
+    div {border:1px gray dotted;margin-bottom: 30px;margin-top: 30px;}
     </style>
-</head>
-<body>
+    <body>
     <div >
     <p style="text-decoration: underline;">Привет, мир!</p>
     <p style="text-decoration:line-through;">Привет, мир!</p>
